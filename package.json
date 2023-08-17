@@ -1,8 +1,26 @@
 {
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
-    "tailwindcss": "^3.2.7"
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "@types/node": "^18.17.0",
+    "gh-pages": "^6.0.0",
+    "nuxt": "^3.6.5",
+    "nuxt-windicss": "^2.6.1",
+    "vite-svg-loader": "^4.0.0"
   },
   "dependencies": {
-    "@glidejs/glide": "^3.6.0"
+    "@formkit/auto-animate": "^0.7.0",
+    "@morev/vue-transitions": "^2.3.6",
+    "aos": "^2.3.4"
   }
 }

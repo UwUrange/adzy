@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family: "LibreCaslon";
+    src: url(\fonts\LibreCaslonDisplay-Regular.ttf) format("truetype");}     
+
+@font-face {
+    font-family: "MetropolisBlack";
+    src: url(\fonts\Metropolis-Black.otf) format("opentype");}    
+
+@font-face {
+    font-family: "MetropolisBold";
+    src: url(\fonts\Metropolis-Bold.otf) format("opentype");}    
+
+@font-face {
+    font-family: "Metropolis";
+    src: url(\fonts\Metropolis-Regular.otf) format("opentype");}    
