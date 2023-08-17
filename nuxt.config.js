@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     plugins: [svgLoader()]
   },
   app: {
-    baseURL: '/',
+    baseURL: '/adzy/',
     buildAssetsDir: 'assets'
   }
 })
